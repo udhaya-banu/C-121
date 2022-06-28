@@ -1,0 +1,39 @@
+body{
+ background:linear-gradient(#e35d6f 0%, #af72ed 100%);
+ color: white;
+ font-family: 'Hurricane', cursive;
+}
+h1{
+    background: white;
+    color: blue;
+    text-shadow: 2px 2px 2px grey;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 35px;
+}
+.modal-title{
+    color:black;
+}
+sup{
+    color:aqua;
+}
+canvas{
+    border-radius: 15px;
+    margin-top: 100px;
+    animation-name: sweety;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes sweety{
+    0%{box-shadow: 5px 5px 50px yellow;}
+    25%{box-shadow: 5px 5px 50px red;}
+    50%{box-shadow: 5px 5px 50px pink;}
+    75%{box-shadow: 5px 5px 50px blue;}
+   100%{box-shadow: 5px 5px 50px blueviolet;}
+}
+.btn{
+    font-size: 20px;
+}
